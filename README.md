@@ -162,7 +162,7 @@ To link cells between images we will be using a plugin designed for tracking - [
 3. Open up TrackMate `Plugins > Tracking > TrackMate`
 4. In the first window, it's possible select out the region you want to process and click `Refresh ROI `
 5. In the next step, select the `Cellpose Detector`
-6. Check if `Path to cellpose` is correct.  
+6. Check if `Path to cellpose` is correct. It should be the same location that you installed your cellpose into. It should look like this: `/Users/emilianagiacomello/miniforge3/envs/cellpose/bin/python`
 7. Select `Custom` model from `Pretrained model` and add a path to the downloaded model. 
 8. Check if the approximate diameter of your objects in `Cell diameter` is correct. Here is an example of final settings:
    <div> 
