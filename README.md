@@ -115,8 +115,8 @@ Crop the empty background:
    <div> 
      <img src="resources/tutorial_images/fiji_scale2.png" width="30%">
    </div>
-2. Press `Edit › Selection › Select Bounding Box` to select the non-empty region 
-3. Press `Image › Crop` to crop the region
+2. Press `Edit › Selection › Select Bounding Box` to select the non-empty region. If it did not work, try using `Select Bounding Box (guess background color)`
+3. Press `Image › Crop` to crop the region. 
 4. You can scale the image to reduce its size for faster pipeline performance.   
    Press `Image > Scale...` and enter the desired scale, like 0.5 or 0.25. 
 
@@ -162,7 +162,7 @@ To link cells between images we will be using a plugin designed for tracking - [
 3. Open up TrackMate `Plugins > Tracking > TrackMate`
 4. In the first window, it's possible select out the region you want to process and click `Refresh ROI `
 5. In the next step, select the `Cellpose Detector`
-6. Check if `Path to cellpose` is correct. It should be the same location that you installed your cellpose into. It should look like this: `/Users/emilianagiacomello/miniforge3/envs/cellpose/bin/python`
+6. Check if `Path to cellpose` is correct. It should be the same location that you installed your cellpose into. It should look like: `/Users/emilianagiacomello/miniforge3/envs/cellpose/bin/python`
 7. Select `Custom` model from `Pretrained model` and add a path to the downloaded model. 
 8. Check if the approximate diameter of your objects in `Cell diameter` is correct. Here is an example of final settings:
    <div> 
