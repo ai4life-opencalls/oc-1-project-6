@@ -7,6 +7,10 @@
 
 # Project #6: Murine skeletal muscle analysis
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10792900.svg)](https://doi.org/10.5281/zenodo.10792900)
+
+
 ---
 This page was created by the [AI4Life project](https://ai4life.eurobioimaging.eu) using data provided by Emiliana Giacomello at [University of Trieste](http://www.units.it). 
 All the images demonstrated in this tutorial are provided under **CC-BY** licence.
